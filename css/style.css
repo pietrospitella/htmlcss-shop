@@ -1,5 +1,56 @@
- * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product{
+    position: relative;
+    width: 250px;
+}
+
+.product .image{
+     width: 100%;
+     height: auto;
+     position: relative
+}
+
+.heart-icon{
+    background-color: white;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.badge{
+    color: white;
+    padding: 5px;
+}
+
+.discount{
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+.sustainability{
+    background-color: green;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.description .name{
+    font-weight: bold;
+}
+
+.description .price{
+    color: red;
+    font-weight: 400;
+}
+
+.old-price{
+    color: black;
+}
