@@ -4,20 +4,50 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 760px;
+    margin: 0 auto;
+}
+
+.square{
+    display: inline-block;
+}
+
 .product{
     position: relative;
     width: 250px;
 }
 
+.product:hover .image{
+    display: none;
+}
+
+.product:hover .image-hidden{
+    display: inline;
+}
+
 .product .image{
+    display: inline;
      width: 100%;
      height: auto;
-     position: relative
+     position: relative;
+}
+
+.image-hidden{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: none;
 }
 
 .heart-icon{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    vertical-align: auto;
+    text-align: center;
     background-color: white;
-    padding: 5px;
     position: absolute;
     top: 10px;
     right: 0;
@@ -36,10 +66,17 @@
 }
 
 .sustainability{
-    background-color: green;
+    background-color: #00875A;
     position: absolute;
     bottom: 10px;
     left: 50px;
+}
+
+#special{
+    background-color: #00875A;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
 }
 
 .description .name{
@@ -47,7 +84,7 @@
 }
 
 .description .price{
-    color: red;
+    color: #EC0037;
     font-weight: 400;
 }
 
